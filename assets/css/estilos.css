@@ -1,0 +1,19 @@
+body{
+    font-family: "Raleway", sans-serif;
+    color: #fff;
+}
+
+.img-logo{
+    width: 30px;
+}
+
+footer a {
+    color: white;
+}
+
+.icon{
+    background-color: white;
+}
+.img-card{
+   max-height: 200px;
+}
