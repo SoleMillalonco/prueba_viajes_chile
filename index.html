@@ -56,7 +56,10 @@
         </div>
     </nav>
     <!--Termina el Navbar (Barra de Navegación)-->
+
+    <!--Inicio del Main (Contenido del Sitio)-->
     <main>
+
      <!--Inicio del Carousel-->    
         <div id="carrousel_chile" class="carousel slide">
             <div class="carousel-inner">
@@ -80,8 +83,151 @@
             </button>
 
         </div>
-    <!--Inicio del Main (Contenido del Sitio)-->
+    <!--Fin del Carousel-->
 
+    <!--Inicio Primera Seccion-->
+    <section class="container-fluid bg-dark text-white py-3 text-center">
+        <h2 class="display-5" id="quienes_somos">¿Quiénes somos?</h2>
+        <hr>
+        <div class="container my-5">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card border-0 my-3">
+                        <div class="card-header bg-primary">
+                            <i class="text-white fa-solid fa-plane fa-2x"></i>
+                        </div>
+                        <div class="card-body bg-dark text-white d-md-block d-none">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam quisquam facilis,
+                                veritatis repellendus animi similique numquam voluptatum sequi vel ea saepe nulla
+                                nisi praesentium velit quos distinctio obcaecati! Cum, eveniet.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card border-0 my-3">
+                        <div class="card-body bg-dark text-white d-md-block d-none">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam quisquam facilis,
+                                veritatis repellendus animi similique numquam voluptatum sequi vel ea saepe nulla
+                                nisi praesentium velit quos distinctio obcaecati! Cum, eveniet.</p>
+                        </div>
+                        <div class="card-header bg-primary">
+                            <i class=" text-white fa-solid fa-mountain fa-2x"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card border-0 my-3">
+                        <div class="card-header bg-primary">
+                            <i class="text-white fa fa-solid fa-route fa-2x"></i>
+                        </div>
+                        <div class="card-body bg-dark text-white d-md-block d-none">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam quisquam facilis,
+                                veritatis repellendus animi similique numquam voluptatum sequi vel ea saepe nulla
+                                nisi praesentium velit quos distinctio obcaecati! Cum, eveniet.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--Fin Primera Seccion-->
+
+    <!--Inicio segunda Seccion-->
+
+    <section class="container-fluid bg-dark text-white py-3 text-center">
+        <h2 class="display-5" id="destacados">Destacados</h2>
+        <hr>
+        <div class="row mx-3 pt-2">
+            <div class="col-md-3 gy-3">
+                <div class="card h-100">
+                    <img class="img-card" src="assets/img/card1.jpg" class="card-img-top" alt="montaña">
+                    <div class="card-body bg-primary text-white">
+                        <h4 class="card-title">Lorem ipsum dolor sit.</h4>
+                        <p class="card-text">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi impedit laudantium autem
+                            excepturi unde totam illo fugit consequatur optio officiis!
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 gy-3">
+                <div class="card h-100">
+                    <img class="img-card" src="assets/img/card2.jpg" class="card-img-top" alt="montaña">
+                    <div class="card-body bg-primary text-white">
+                        <h4 class="card-title">Lorem ipsum dolor sit.</h4>
+                        <p class="card-text">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi impedit laudantium autem
+                            excepturi unde totam illo fugit consequatur optio officiis!
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 gy-3">
+                <div class="card h-100">
+                    <img class="img-card" src="assets/img/card3.jpg" class="card-img-top" alt="playa">
+                    <div class="card-body bg-primary text-white">
+                        <h4 class="card-title">Lorem ipsum dolor sit.</h4>
+                        <p class="card-text">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi impedit laudantium autem
+                            excepturi unde totam illo fugit consequatur optio officiis!
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 gy-3">
+                <div class="card h-100">
+                    <img class="img-card" src="assets/img/card4.jpg" class="card-img-top" alt="bosque">
+                    <div class="card-body bg-primary text-white">
+                        <h4 class="card-title">Lorem ipsum dolor sit.</h4>
+                        <p id="parrafo02" class="card-text">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi impedit laudantium autem
+                            excepturi unde totam illo fugit consequatur optio officiis!
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+     <!--fin segunda Seccion-->
+
+     <!--Inicio tercera Seccion-->
+
+     <section class="bg-dark text-white p-2">
+        <h2 class="display-5 text-center" id="contacto">Contacto</h2>
+        <hr>
+        <div class="container">
+            <div class="mb-3">
+                <label for="nombre" class="form-label">Nombre</label>
+                <input type="text" class="form-control" id="nombre">
+            </div>
+            <div class="mb-3">
+                <label for="asunto" class="form-label">Asunto</label>
+                <input type="text" class="form-control" id="asunto">
+            </div>
+            <div class="mb-3">
+                <label for="mensaje" class="form-label">Mensaje</label>
+                <textarea class="form-control" id="mensaje" rows="5"></textarea>
+            </div>
+            <button type="button" class="btn btn-primary" data-toggle="tooltip" data-placement="bottom" title="Presiona para enviar">
+                Enviar
+              </button>
+        </div>
+
+    </section>
+
+    <!--Fin tercera Seccion-->
+
+    </main>
+
+    <!--Termina el main (contenido)-->
+
+    
+
+
+    
+ 
    
 
 
